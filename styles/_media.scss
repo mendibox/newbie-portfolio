@@ -29,7 +29,7 @@
     .header-content .left-header .image {
         margin: 0 auto;
         width: 90%;
-    }/*Verify, it is not working*/
+    }
     .about-container {
         grid-template-columns: 1fr;
         .right-about {
@@ -42,6 +42,18 @@
                 padding-left: 0;
             }
         }
+    }
+    .timeline {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .about-stats {
+        .progress-bars {
+            grid-template-columns: 1fr;
+        }
+    }
+    .section {
+        padding: 2rem 2.5rem;
     }
     .controls {
         top: auto;
