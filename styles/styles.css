@@ -297,7 +297,7 @@ section {
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
-.about-skills .skills-container .side-container .side-title {
+.about-skills .skills-container .side-container .title {
   text-transform: uppercase;
   font-size: 1.4rem;
   text-align: center;
@@ -322,7 +322,7 @@ section {
   position: absolute;
   left: 50%;
   top: 0;
-  width: 40%;
+  width: 60%;
   height: 1px;
   background-color: var(--color-grey-5);
   transform: translateX(-50%);
@@ -330,21 +330,22 @@ section {
 
 /*Timeline*/
 .timeline {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  /*display: grid;*/
+  /*grid-template-columns: 1fr;*/
+  /*gap: 2rem;*/
   padding-bottom: 3rem;
 }
 .timeline .timeline-item {
   position: relative;
   padding-left: 3rem;
-  border-left: 1px solid var(--color-grey-5);
+  padding-bottom: 3rem;
+  border-left: 2px solid var(--color-grey-5);
 }
 .timeline .timeline-item .tl-icon {
   position: absolute;
-  left: -27px;
-  top: 0;
-  background-color: var(--color-secondary);
+  left: -26px;
+  top: 0px;
+  /*background-color: var(--color-white);*/
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -352,20 +353,21 @@ section {
   align-items: center;
   justify-content: center;
 }
-.timeline .timeline-item .tl-icon i {
-  font-size: 1.3rem;
+.timeline .timeline-item .tl-icon img {
+  width: 55px;
+  border-radius: 50%;
 }
 .timeline .timeline-item .tl-duration {
   padding: 0.2rem 0.6rem;
   background-color: var(--color-grey-5);
   border-radius: 15px;
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   font-weight: 500;
 }
 .timeline .timeline-item h5 {
-  padding: 1rem 0;
+  padding: 0.3rem 0;
   text-transform: uppercase;
   font-size: 1.3rem;
   font-weight: 600;
