@@ -164,7 +164,7 @@ section {
   pointer-events: none;
 }
 
-/*Header content*/
+/*Home*/
 .header-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -289,6 +289,7 @@ section {
   text-transform: uppercase;
 }
 
+/*My tech skills*/
 .about-skills {
   padding-bottom: 4rem;
 }
@@ -328,7 +329,7 @@ section {
   transform: translateX(-50%);
 }
 
-/*Timeline*/
+/*My work experience*/
 .timeline {
   /*display: grid;*/
   /*grid-template-columns: 1fr;*/
@@ -339,7 +340,7 @@ section {
   position: relative;
   padding-left: 3rem;
   padding-bottom: 3rem;
-  border-left: 2px solid var(--color-grey-5);
+  /*border-left: 2px solid var(--color-grey-5);*/
 }
 .timeline .timeline-item .tl-icon {
   position: absolute;
@@ -645,9 +646,6 @@ section {
   transform: translateX(100%);
   transition: all 0.4s ease-out;
   z-index: -1;
-}
-.main-btn:hover {
-  /*transition: all 0.4s ease-out; Not sure if it is necessary */
 }
 .main-btn:hover::before {
   width: 100%;

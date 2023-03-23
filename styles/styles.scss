@@ -164,7 +164,7 @@ section {
   }
 }
 
-/*Header content*/
+/*Home*/
 .header-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -287,6 +287,7 @@ section {
   }
 }
 
+/*My tech skills*/
 .about-skills {
   padding-bottom: 4rem;
   .skills-container {
@@ -328,7 +329,7 @@ section {
   }
 }
 
-/*Timeline*/
+/*My work experience*/
 .timeline {
   /*display: grid;*/
   /*grid-template-columns: 1fr;*/
@@ -338,7 +339,7 @@ section {
     position: relative;
     padding-left: 3rem;
     padding-bottom: 3rem;
-    border-left: 2px solid var(--color-grey-5);
+    /*border-left: 2px solid var(--color-grey-5);*/
     .tl-icon {
       position: absolute;
       left: -26px;
@@ -646,7 +647,6 @@ section {
     z-index: -1;
   }
   &:hover {
-    /*transition: all 0.4s ease-out; Not sure if it is necessary */
     &::before {
       width: 100%;
       height: 100%;
